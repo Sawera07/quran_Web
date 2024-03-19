@@ -1,0 +1,152 @@
+
+*{
+    position: relative;
+}
+.btn-login{
+background-color: green;
+font-size: 14px;
+width: 150px;
+
+color: white;
+padding: 20px;
+border-radius: 50px;
+text-decoration: none;
+transition: 0.3s background-color;
+margin-left: 5px;
+margin-right: 5px;
+font-size: 18px;
+}
+.btn-login:hover{
+    background-color: white;
+    color: green;
+    font-weight: bold;
+}
+
+.navbar-toggler{
+  border: none;
+  font-size: 1.25rem;
+}
+.navbar-toggler:focus,btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
+.nav-link{
+    color: rgba(0, 0, 0, 0.692);
+    font-weight: 500;
+    font-size: 24px;
+  
+}
+.nav-link:hover, .nav-link.active{
+    color: black;
+}
+ .nav-link::before,.dropdown-item::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: green;
+    visibility: hidden;
+    transform: translateX(-50%);
+    transition: width 0.3s ease-in-out;
+}
+
+ .nav-link:hover::before,.dropdown-item:hover::before {
+    width: 100%;
+    visibility: visible;
+}
+.head{
+    color: white;
+    padding: 15px;
+    background: linear-gradient(45deg, green, rgb(243, 184, 21));
+}
+i{
+    color: white;
+   margin-right: 5px;
+}
+.main-nav{
+    position: sticky;
+}
+.bg-light {
+	background-color: transparent !important;
+}
+.carousel-item {
+	height: 80vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-caption a {
+	text-transform: uppercase;
+	text-decoration: none;
+	background: darkorange;
+	padding: 10px 30px;
+	display: inline-block;
+	color: #000;
+	margin-top: 15px;
+}
+.section1{
+    background-color: #E5F3ED;
+ background-position: center;
+    border-radius: 20px;
+    margin-top: -140px;
+    position: relative;
+    
+}
+.block{
+    position: relative;
+    background-position: center;
+    background-image: url("https://themazine.com/html/alquran/assets/images/icons/featured.png");
+}
+.icon1{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+       
+    
+        width: 100px;
+        height: 100px; 
+        font-size: 60px;
+        border-radius: 50%;
+        background-color:rgb(243,184,21); 
+        border: 2px solid black;
+        color: black; 
+        transform: rotateY(180deg);
+}
+.foot{
+    background: url("https://img.freepik.com/premium-photo/modern-abstract-background_730620-98.jpg");
+    
+}
+a{
+    text-decoration: none;
+}
+@media only screen and (max-width: 767px) {
+	.carousel-caption {
+		bottom: 165px;
+	}
+	.carousel-caption h5 {
+		font-size: 17px;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+    
+    /* .carousel-caption p {
+		font-size: 15px;
+	} */
+}
