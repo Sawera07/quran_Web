@@ -72,7 +72,7 @@ i{
 	background-color: transparent !important;
 }
 .carousel-item {
-	height: 80vh;
+	
 	min-height: 300px;
 }
 .carousel-caption {
@@ -103,7 +103,8 @@ i{
     background-color: #E5F3ED;
  background-position: center;
     border-radius: 20px;
-    margin-top: -140px;
+    margin-top: -80px;
+    padding: 100px; 
     position: relative;
     
 }
@@ -127,6 +128,23 @@ i{
         color: black; 
         transform: rotateY(180deg);
 }
+
+.vid {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-position: center;
+    background-image: url("https://themazine.com/html/alquran/assets/images/icons/featured.png");
+}
+
+.vid .video-wrapper iframe {
+  width: 100%;
+ border-radius: 60px;
+}
+.vid .mbr-section-title {
+  text-align: center;
+  font-weight: 400;
+}
+
 .foot{
     background: url("https://img.freepik.com/premium-photo/modern-abstract-background_730620-98.jpg");
     

@@ -1,0 +1,62 @@
+
+.wisdom {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+
+
+@media (max-width: 991px) {
+  .wisdom .image-container {
+    margin-bottom: 2rem;
+  }
+}
+
+.wisdom .row {
+  flex-direction: row-reverse;
+}
+
+.wisdom .row {
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+  .wisdom .image-container {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .wisdom .text-container {
+    padding: 0 2rem;
+  }
+}
+
+.wisdom .d_title {
+  color: black;
+  font-weight: 400;
+  
+}
+
+
+.wisdom .section-text,
+.wisdom .section-btn {
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+  
+
+}
+.cid-u7zSWpbwt3 .mbr-fallback-image.disabled {
+    display: none;
+  }
+  .cid-u7zSWpbwt3 .mbr-fallback-image {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: #000000;
+  }

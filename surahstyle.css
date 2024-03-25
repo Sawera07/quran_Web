@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.bg_img{
+height: 100vh;
+width: 100vw;
+    background: url("pexels-craig-adderley-1652301.jpg");
+    background-position: center;
+    background-size:contain;
+    position: fixed;
+    display: grid;
+    place-items: center;
+}
+.title{
+    background-color: rgba(0, 0, 0, 0.726);
+    color: white;
+    padding: 20px;
+  font-size: 20px;
+  font-weight: 700;
+    border-radius: 25px;
+}
+.paper_box{
+height: 500px;
+width: 500px;
+
+background-size: cover;
+background-position: center;
+padding: 20px;
+background: url("paper.jpg");
+}
+.surah_list{
+    padding: 20px;
+    height: 100%;
+    overflow-y: scroll;
+}
+.surah{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgba(47, 38, 38, 0.496);
+}
+.ayats{
+    display: none;
+    height: 100%;
+    padding: 8px;
+    font-size: 16px;
+    place-items: center;
+    overflow-y: scroll;
+    
+}
+.ayat{
+    display: flex;
+    background-color: rgba(47, 38, 38, 0.496);
+    border-radius: 20px;
+    flex-direction: column;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+.arbi{
+    padding: 8px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.translate{
+    padding: 8px;
+   line-height: 2;
+   text-align: center;
+   border-radius: 8px;
+   background-color: rgba(0, 0, 0, 0.726);
+   color: white;
+}
+.surah_name{
+    padding: 10px;
+    font-size: 18px;
+
+    background-color:  rgba(0, 0, 0, 0.726);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+color: white;
+}
+.surah_name :is(:nth-child(1),:nth-child(3)){
+    height: 32px;
+    background-color:white;
+    width: 32px;
+    color: black;
+    display: grid;
+    place-items: center;
+border-radius: 50%;
+}
+.type_name{
+    font-size: 18px;
+    padding: 8px;
+    background:  rgba(0, 0, 0, 0.726);
+    font-weight: 900;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+}
+.type_name span{
+   width:43%;
+    place-items: center;
+    display: grid;
+}
