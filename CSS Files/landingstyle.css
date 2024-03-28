@@ -59,7 +59,7 @@ font-size: 18px;
 .head{
     color: white;
     padding: 15px;
-    background: linear-gradient(45deg, green, rgb(243, 184, 21));
+    background: linear-gradient(45deg, rgb(103, 69, 27), rgb(103, 69, 27), rgb(243, 184, 21), rgb(103, 69, 27),green);
 }
 i{
     color: white;
@@ -148,6 +148,10 @@ i{
 .foot{
     background: url("https://img.freepik.com/premium-photo/modern-abstract-background_730620-98.jpg");
     
+}
+.foot .text-reset:hover{
+    transform: scale(1.1);
+    color: red;
 }
 a{
     text-decoration: none;

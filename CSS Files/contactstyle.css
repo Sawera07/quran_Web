@@ -112,10 +112,14 @@ input{
                 border: 2px solid white;
                 color: rgb(125,134,129); 
         }
-.icon1:hover{
-    background-color: green;
-    color: white;
-}
+        .card:hover{
+            transform: scale(1.1);
+            .icon1{
+                background-color: green;
+                color: white;
+            }
+        }
+
         .foot{
             background: url("https://img.freepik.com/premium-photo/modern-abstract-background_730620-98.jpg");
             

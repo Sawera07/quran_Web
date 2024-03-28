@@ -1,0 +1,48 @@
+body{
+    background-color:white
+}
+#surah-content{
+    background-color:rgba(255, 228, 196, 0.482);
+    margin-top: 50px;
+    padding: 50px;
+  border-radius: 30px;
+}
+
+#surah-content .surah_name{
+    padding: 5rem;
+    background-color:  white;
+    display: flex;
+    justify-content: space-between;
+    color:  rgb(103, 69, 27);
+    font-size: 50px;
+    font-weight: bold;
+    align-items: center;
+    border-radius: 40px;
+}
+
+#surah-content .surah_name .no , .aya{
+height: 4rem;
+width: 4rem;
+font-size: 28px;
+background-color:rgb(103, 69, 27);
+border-radius: 50%;
+color: white;
+font-weight: 600;
+display: grid;
+place-items: center;
+}
+#surah-content .surat{
+    margin-top: 50px;
+    text-align: right;
+    
+}
+#surah-content .ayattext{
+    font-size: 35px;
+    color: rgb(103, 69, 27);
+  
+}
+#surah-content .ayatno{
+    font-size: 30px;
+   color: goldenrod;
+   font-weight: bold;
+}
