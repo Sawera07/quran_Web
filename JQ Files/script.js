@@ -29,7 +29,7 @@ $(document).ready(function() {
                 // Display Surah content when a Surah is clicked
                 surahList.on("click", "li", function(event) {
                     var surahNumber = $(this).data("index");
-                    window.location.href = "surah.html?surahNumber=" + surahNumber;
+                    window.location.href = "../HTML Files/surah.html?surahNumber=" + surahNumber;
                 });
 
                 // Search functionality
