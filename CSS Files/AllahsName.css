@@ -1,0 +1,95 @@
+body{
+    background-image:   url("https://themazine.com/html/alquran/assets/images/icons/featured.png");
+}
+h1{
+    color: rgb(103, 69, 27);
+    font-size: 50px;
+}
+li{
+   margin-top: 10px; 
+   margin-bottom: 20px;
+ 
+}
+
+.list-group-item {
+    cursor: pointer;
+position: relative;
+padding: 50px;
+margin: .5em 0;
+
+background: rgba(255, 228, 196, 0.482);
+border: 2px solid rgb(103, 69, 27);
+box-shadow: 5px 10px  rgb(103, 69, 27, 0.305);
+color: #000;
+text-decoration: none;
+-moz-border-radius: .3em;
+-webkit-border-radius: .3em;
+ border-radius: 40px;
+
+transition: all .2s ease-in-out;
+}
+
+    
+    .list-type ol{
+    counter-reset: li;
+  
+    list-style: decimal;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin-bottom: 4em;
+    }
+    .list-type ol ol{
+    margin: 0 0 0 2em;
+    }
+    
+.list-group-item:hover{
+    background: rgb(103, 69, 27);
+    text-decoration:none;
+    transform: scale(1.1);
+    color: white;
+    }
+    .list-group-item:before{
+        content: counter(li);
+        counter-increment: li;
+        position: absolute;
+        left: -1.3em;
+        top: 50%;
+        margin-top: -1.3em;
+        background:rgb(103, 69, 27);
+        height: 3em;
+        width: 3em;
+        line-height: 2.5em;
+        border: .3em solid white;
+        text-align: center;
+        font-weight: bold;
+        -moz-border-radius: 2em;
+        -webkit-border-radius: 2em;
+        border-radius: 2em;
+        color:white;
+        }
+.list-group-item:last-child {
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.list-group-item:first-child {
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+.list-group-item {
+    color: black;
+    font-weight: 400;
+ text-align: center;
+
+}
+.list-group-item .name{
+font-size: 40px;
+font-weight: 500;
+
+}
+.list-group-item .enname{
+    font-size: 20px;
+}
+.list-group-item .en_trans{
+    font-size: 15px;
+}
