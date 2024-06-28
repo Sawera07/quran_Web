@@ -13,7 +13,7 @@
 </head>
 <body>
 <div class="main-header fixed-top" style="background-color: white;"> 
-        <div class="head fs-5" >
+        <div class="head " >
           <div class="row">
            <div class="col-lg-2 col-md-6 col-12">  
         <i class="icon fa-solid fa-envelope"></i> 
@@ -32,54 +32,56 @@
         </div>
         </div>
       
-           <nav class="navbar navbar-expand-lg p-4" >
-              <div class="container-fluid">
-              <img class="navbar-brand me-auto" src="https://themazine.com/html/alquran/assets/images/logo.svg" alt="" srcset="">
-                
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                  <div class="offcanvas-header">
-                    <img src="https://themazine.com/html/alquran/assets/images/logo.svg" class="offcanvas-title" id="offcanvasNavbarLabel">
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                  </div>
-                  <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-center  flex-grow-1 pe-3 ">
-                      <li class="nav-item dropdown">
-                        <a class="nav-link mx-lg-2 active " aria-current="page" href="landing.html">Home</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link mx-lg-2" href="surahs.html">Surahs</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link mx-lg-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
-                        <ul class="dropdown-menu p-4">
-                          <li><a class="dropdown-item dropdown fs-5 fw-bold" href="#">Register</a></li>
-                          <li><a class="dropdown-item dropdown fs-5 fw-bold" href="#">Prayer time</a></li>
-                          <li><a class="dropdown-item dropdown fs-5 fw-bold" href="#">FAQ's</a></li>
-                         
-                          
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                          <a class="nav-link mx-lg-2" href="#">Reciters</a>
-                        </li>
-                      <li class="nav-item dropdown">
-                          <a class="nav-link mx-lg-2" href="#">Abouts us</a>
-                        </li>
-                       
-                        <li class="nav-item dropdown">
-                          <a class="nav-link mx-lg-2" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                   
-                  </div>
-                </div>
-                <a href="Register.html">
-                <button type=" button" class=" btn-login btn btn-success p-2 fs-5" >Login</button> </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
+        <nav class="navbar navbar-expand-lg p-4" >
+          <div class="container-fluid">
+          <img class="navbar-brand me-auto" src="https://themazine.com/html/alquran/assets/images/logo.svg" alt="" srcset="">
+            
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <img src="https://themazine.com/html/alquran/assets/images/logo.svg" class="offcanvas-title" id="offcanvasNavbarLabel">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
-            </nav>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-center  flex-grow-1 pe-3 ">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link mx-lg-2 active " aria-current="page" href="../HTML Files/landing.php">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link mx-lg-2" href="../HTML Files/surahlist.php">Surahs</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link mx-lg-2" href="../HTML Files/audio.php">Recitation</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link mx-lg-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                    <ul class="dropdown-menu p-4">
+                      <li><a class="dropdown-item dropdown fs-5 fw-bold" href="../HTML Files/Register.php">Register</a></li>
+                      <li><a class="dropdown-item dropdown fs-5 fw-bold" href="../HTML Files/Azan.php">Prayer time</a></li>
+                    
+                      
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link mx-lg-2" href="../HTML Files/AllahsName.php">Asma ul Husna</a>
+                    </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link mx-lg-2" href="../HTML Files/about.php">Abouts us</a>
+                    </li>
+                   
+                    <li class="nav-item dropdown">
+                      <a class="nav-link mx-lg-2" href="../HTML Files/contact.php">Contact</a>
+                    </li>
+                </ul>
+               
+              </div>
+            </div>
+            <a href="Register.php">
+            <button type=" button" class=" btn-login btn btn-success p-2 fs-5" >Login</button> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
            </div>
           <!-- slider -->
  <div class="carousel-inner" >
@@ -267,7 +269,7 @@
       
         <!-- Copyright -->
         <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-          © 2021 Copyright:
+          © 2024 Copyright:
           <a class="text-reset fw-bold" href="https://mdbootstrap.com/">AlQuran</a>
         </div>
         <!-- Copyright -->

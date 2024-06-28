@@ -87,36 +87,42 @@
                    <div class="offcanvas-body">
                      <ul class="navbar-nav justify-content-center  flex-grow-1 pe-3 ">
                        <li class="nav-item dropdown">
-                         <a class=" text-white nav-link mx-lg-2 active " aria-current="page" href="landing.html">Home</a>
+                         <a class=" text-white nav-link mx-lg-2 active " aria-current="page" href="landing.php">Home</a>
                        </li>
                        <li class="nav-item dropdown">
-                         <a class=" text-white nav-link mx-lg-2" href="surahs.html">Surahs</a>
+                         <a class=" text-white nav-link mx-lg-2" href="surahs.php">Surahs</a>
                        </li>
+                       <li class="nav-item dropdown">
+                        <a class=" text-white nav-link mx-lg-2" href="audio.php">Recitation
+                        </a>
+                      </li>
+
                        <li class="nav-item dropdown">
                          <a class=" text-white nav-link mx-lg-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
                          <ul class="dropdown-menu p-4">
-                           <li><a class=" text-white dropdown-item dropdown fs-5 fw-bold" href="#">Register</a></li>
-                           <li><a class=" text-white dropdown-item dropdown fs-5 fw-bold" href="#">Prayer time</a></li>
-                           <li><a class=" text-white dropdown-item dropdown fs-5 fw-bold" href="#">FAQ's</a></li>
+                           <li><a class="  dropdown-item dropdown fs-5 fw-bold" href="#">Register</a></li>
+                           <li><a class="  dropdown-item dropdown fs-5 fw-bold" href="#">Prayer time</a></li>
+                        
                           
                            
                          </ul>
                        </li>
                        <li class="nav-item dropdown">
-                           <a class=" text-white nav-link mx-lg-2" href="#">Reciters</a>
-                         </li>
+                        <a class=" text-white nav-link mx-lg-2" href="AllahsName.php">Recitation
+                        </a>
+                      </li>
                        <li class="nav-item dropdown">
-                           <a class=" text-white nav-link mx-lg-2" href="#">Abouts us</a>
+                           <a class=" text-white nav-link mx-lg-2" href="about.php">Abouts us</a>
                          </li>
                         
                          <li class="nav-item dropdown">
-                           <a class=" text-white nav-link mx-lg-2" href="contact.html">Contact</a>
+                           <a class=" text-white nav-link mx-lg-2" href="contact.php">Contact</a>
                          </li>
                      </ul>
                     
                    </div>
                  </div>
-                 <a href="Register.html">
+                 <a href="Register.php">
                  <button type=" button" class=" btn-login btn btn-success p-2 fs-5" >Login</button> </a>
                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                    <span class="navbar-toggler-icon"></span>
@@ -366,7 +372,7 @@
       
         <!-- Copyright -->
         <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-          © 2021 Copyright:
+          © 2024 Copyright:
           <a class="text-reset fw-bold" href="https://mdbootstrap.com/">AlQuran</a>
         </div>
         <!-- Copyright -->

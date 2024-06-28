@@ -1,7 +1,7 @@
 .head{
     color: white;
     padding: 15px;
-    background: linear-gradient(45deg, green, rgb(243, 184, 21));
+    background: linear-gradient(45deg, rgb(103, 69, 27), rgb(103, 69, 27), rgb(243, 184, 21), rgb(103, 69, 27),green);
 }
 .btn-login{
     background-color: green;

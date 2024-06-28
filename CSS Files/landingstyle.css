@@ -3,64 +3,64 @@
     position: relative;
 }
 .btn-login{
-background-color: green;
-font-size: 14px;
-width: 150px;
-
-color: white;
-padding: 20px;
-border-radius: 50px;
-text-decoration: none;
-transition: 0.3s background-color;
-margin-left: 5px;
-margin-right: 5px;
-font-size: 18px;
-}
-.btn-login:hover{
-    background-color: white;
-    color: green;
-    font-weight: bold;
-}
-
-.navbar-toggler{
-  border: none;
-  font-size: 1.25rem;
-}
-.navbar-toggler:focus,btn-close:focus{
-    box-shadow: none;
-    outline: none;
-}
-.nav-link{
-    color: rgba(0, 0, 0, 0.692);
-    font-weight: 500;
-    font-size: 24px;
-  
-}
-.nav-link:hover, .nav-link.active{
-    color: black;
-}
- .nav-link::before,.dropdown-item::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 0;
-    height: 2px;
     background-color: green;
-    visibility: hidden;
-    transform: translateX(-50%);
-    transition: width 0.3s ease-in-out;
-}
-
- .nav-link:hover::before,.dropdown-item:hover::before {
-    width: 100%;
-    visibility: visible;
-}
-.head{
+    font-size: 14px;
+    width: 150px;
+    
     color: white;
-    padding: 15px;
-    background: linear-gradient(45deg, rgb(103, 69, 27), rgb(103, 69, 27), rgb(243, 184, 21), rgb(103, 69, 27),green);
-}
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+    }
+    .btn-login:hover{
+        background-color: white;
+        color: green;
+        font-weight: bold;
+    }
+    
+    .navbar-toggler{
+      border: none;
+      font-size: 1.25rem;
+    }
+    .navbar-toggler:focus,btn-close:focus{
+        box-shadow: none;
+        outline: none;
+    }
+    .nav-link{
+        color: rgba(0, 0, 0, 0.692);
+        font-weight: 500;
+        font-size: 24px;
+      
+    }
+    .nav-link:hover, .nav-link.active{
+        color: black;
+    }
+     .nav-link::before,.dropdown-item::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 0;
+        height: 2px;
+        background-color: green;
+        visibility: hidden;
+        transform: translateX(-50%);
+        transition: width 0.3s ease-in-out;
+    }
+    
+     .nav-link:hover::before,.dropdown-item:hover::before {
+        width: 100%;
+        visibility: visible;
+    }
+    .head{
+        color: white;
+        padding: 15px;
+        background: linear-gradient(45deg, rgb(103, 69, 27), rgb(103, 69, 27), rgb(243, 184, 21), rgb(103, 69, 27),green);
+    }
 i{
     color: white;
    margin-right: 5px;

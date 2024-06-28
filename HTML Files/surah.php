@@ -1,4 +1,29 @@
-$(document).ready(function() {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surah Content</title>
+  <link rel="stylesheet" href="../CSS Files/suratstyle.css">
+  <style>
+    body{
+    background-image:   url("https://themazine.com/html/alquran/assets/images/icons/featured.png");
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="surah-content">
+      <div id="audio">
+      
+   </div>
+    </div>
+ 
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <!-- <script src="../JQ Files/surahsscript.js"></script> -->
+  <script>
+    $(document).ready(function() {
     // Function to get query parameters from URL
     function getQueryParam(param) {
         const queryString = window.location.search;
@@ -19,7 +44,7 @@ $(document).ready(function() {
                 var surah = data.data;
 
             
-                $("#surah-content").php(`
+                $("#surah-content").html(`
                 <div class="surah_name">
                    <span class="no" >${surah.number}</span>
                    <span class="sname">${surah.name}</span>
@@ -36,3 +61,7 @@ $(document).ready(function() {
         }
     });
 });
+
+  </script>
+</body>
+</html>
